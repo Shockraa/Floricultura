@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loja de flor</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1>Flowey</h1>
+        </div>
+        <div class="buttons">
+            <button id="comprar">COMPRAR</button>
+            <button id="login">LOGIN</button>
+        </div>
+    </header>
+    <main>
+        <div id="conteudo1"> <!--Tela de Compra-->
+            <h2 class="titulo1">Compre aqui!</h2>
+            <div class="itens">
+                <button id="item1"></button>
+                <button id="item2"></button>
+                <button id="item3"></button>
+            </div>
+            <div class="valor">
+                <h2>20$</h2>
+                <h2>15$</h2>
+                <h2>10$</h2>
+            </div>
+            <div id="total">
+
+            </div>
+            <button id="final">Finalizar compra</button>
+        </div>
+        <div id="conteudo2" style="display: none;"> <!--Tela do Login-->
+            <h2 class="titulo2">Login aqui!</h2> 
+            <form>
+                <label for="username">Nome:</label>
+                <input type="text" id="username">
+                <label for="password">Senha:</label>
+                <input type="password" id="password">
+                <button id="entrar" type="submit" onclick="dados()">Entrar</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+<script src="script.js"></script>
+
+</html>
